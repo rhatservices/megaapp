@@ -15,5 +15,7 @@ func main() {
 		Long:  "",
 	}
 
+	rootCmd.AddCommand(newRuleCommand())
+
 	rootCmd.Execute()
 }
